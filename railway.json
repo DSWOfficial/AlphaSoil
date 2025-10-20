@@ -1,0 +1,18 @@
+{
+  "builds": [
+    {
+      "path": "frontend",
+      "installCommand": "npm install",
+      "buildCommand": "npm run build"
+    },
+    {
+      "path": "backend",
+      "installCommand": "npm install",
+      "startCommand": "node server.js"
+    }
+  ],
+  "env": {
+    "MISTRAL_API_KEY": "<YOUR_API_KEY>",
+    "NODE_ENV": "production"
+  }
+}
